@@ -7,27 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C47BE136263B1F0100E6A8A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47BE135263B1F0100E6A8A5 /* AppDelegate.swift */; };
-		C47BE138263B1F0100E6A8A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47BE137263B1F0100E6A8A5 /* SceneDelegate.swift */; };
-		C47BE13A263B1F0100E6A8A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47BE139263B1F0100E6A8A5 /* ViewController.swift */; };
-		C47BE13D263B1F0200E6A8A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47BE13B263B1F0200E6A8A5 /* Main.storyboard */; };
-		C47BE13F263B1F0200E6A8A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47BE13E263B1F0200E6A8A5 /* Assets.xcassets */; };
-		C47BE142263B1F0200E6A8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47BE140263B1F0200E6A8A5 /* LaunchScreen.storyboard */; };
+		C4957650263C6D30005CF92E /* AstronomicPictureOfTheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495764F263C6D30005CF92E /* AstronomicPictureOfTheDay.swift */; };
+		C4957653263C6F84005CF92E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4957652263C6F84005CF92E /* NetworkManager.swift */; };
+		C49B2BA2263C0CB600040AF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B2BA1263C0CB600040AF5 /* AppDelegate.swift */; };
+		C49B2BA4263C0CB600040AF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B2BA3263C0CB600040AF5 /* SceneDelegate.swift */; };
+		C49B2BA6263C0CB600040AF5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B2BA5263C0CB600040AF5 /* MainViewController.swift */; };
+		C49B2BA9263C0CB600040AF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49B2BA7263C0CB600040AF5 /* Main.storyboard */; };
+		C49B2BAB263C0CB800040AF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49B2BAA263C0CB800040AF5 /* Assets.xcassets */; };
+		C49B2BAE263C0CB800040AF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49B2BAC263C0CB800040AF5 /* LaunchScreen.storyboard */; };
+		C49B2BB8263C103500040AF5 /* APODViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B2BB7263C103500040AF5 /* APODViewController.swift */; };
+		C49B2BBB263C106800040AF5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B2BBA263C106800040AF5 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C47BE132263B1F0100E6A8A5 /* Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Network.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C47BE135263B1F0100E6A8A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C47BE137263B1F0100E6A8A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C47BE139263B1F0100E6A8A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C47BE13C263B1F0200E6A8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C47BE13E263B1F0200E6A8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C47BE141263B1F0200E6A8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C47BE143263B1F0200E6A8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C495764F263C6D30005CF92E /* AstronomicPictureOfTheDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomicPictureOfTheDay.swift; sourceTree = "<group>"; };
+		C4957652263C6F84005CF92E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C49B2B9E263C0CB600040AF5 /* Project Nasa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Nasa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49B2BA1263C0CB600040AF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C49B2BA3263C0CB600040AF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C49B2BA5263C0CB600040AF5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C49B2BA8263C0CB600040AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C49B2BAA263C0CB800040AF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C49B2BAD263C0CB800040AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C49B2BAF263C0CB800040AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49B2BB7263C103500040AF5 /* APODViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODViewController.swift; sourceTree = "<group>"; };
+		C49B2BBA263C106800040AF5 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C47BE12F263B1F0100E6A8A5 /* Frameworks */ = {
+		C49B2B9B263C0CB600040AF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,71 +45,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C47BE129263B1F0100E6A8A5 = {
+		C49B2B95263C0CB600040AF5 = {
 			isa = PBXGroup;
 			children = (
-				C47BE134263B1F0100E6A8A5 /* Network */,
-				C47BE133263B1F0100E6A8A5 /* Products */,
+				C49B2BA0263C0CB600040AF5 /* Project Nasa */,
+				C49B2B9F263C0CB600040AF5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C47BE133263B1F0100E6A8A5 /* Products */ = {
+		C49B2B9F263C0CB600040AF5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C47BE132263B1F0100E6A8A5 /* Network.app */,
+				C49B2B9E263C0CB600040AF5 /* Project Nasa.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C47BE134263B1F0100E6A8A5 /* Network */ = {
+		C49B2BA0263C0CB600040AF5 /* Project Nasa */ = {
 			isa = PBXGroup;
 			children = (
-				C47BE135263B1F0100E6A8A5 /* AppDelegate.swift */,
-				C47BE137263B1F0100E6A8A5 /* SceneDelegate.swift */,
-				C47BE139263B1F0100E6A8A5 /* ViewController.swift */,
-				C47BE13B263B1F0200E6A8A5 /* Main.storyboard */,
-				C47BE13E263B1F0200E6A8A5 /* Assets.xcassets */,
-				C47BE140263B1F0200E6A8A5 /* LaunchScreen.storyboard */,
-				C47BE143263B1F0200E6A8A5 /* Info.plist */,
+				C49B2BA1263C0CB600040AF5 /* AppDelegate.swift */,
+				C49B2BA3263C0CB600040AF5 /* SceneDelegate.swift */,
+				C49B2BA5263C0CB600040AF5 /* MainViewController.swift */,
+				C49B2BB7263C103500040AF5 /* APODViewController.swift */,
+				C49B2BBA263C106800040AF5 /* DataManager.swift */,
+				C4957652263C6F84005CF92E /* NetworkManager.swift */,
+				C495764F263C6D30005CF92E /* AstronomicPictureOfTheDay.swift */,
+				C49B2BA7263C0CB600040AF5 /* Main.storyboard */,
+				C49B2BAA263C0CB800040AF5 /* Assets.xcassets */,
+				C49B2BAC263C0CB800040AF5 /* LaunchScreen.storyboard */,
+				C49B2BAF263C0CB800040AF5 /* Info.plist */,
 			);
-			path = Network;
+			path = "Project Nasa";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C47BE131263B1F0100E6A8A5 /* Network */ = {
+		C49B2B9D263C0CB600040AF5 /* Project Nasa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C47BE146263B1F0200E6A8A5 /* Build configuration list for PBXNativeTarget "Network" */;
+			buildConfigurationList = C49B2BB2263C0CB800040AF5 /* Build configuration list for PBXNativeTarget "Project Nasa" */;
 			buildPhases = (
-				C47BE12E263B1F0100E6A8A5 /* Sources */,
-				C47BE12F263B1F0100E6A8A5 /* Frameworks */,
-				C47BE130263B1F0100E6A8A5 /* Resources */,
+				C49B2B9A263C0CB600040AF5 /* Sources */,
+				C49B2B9B263C0CB600040AF5 /* Frameworks */,
+				C49B2B9C263C0CB600040AF5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Network;
-			productName = Network;
-			productReference = C47BE132263B1F0100E6A8A5 /* Network.app */;
+			name = "Project Nasa";
+			productName = "Project Nasa";
+			productReference = C49B2B9E263C0CB600040AF5 /* Project Nasa.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C47BE12A263B1F0100E6A8A5 /* Project object */ = {
+		C49B2B96263C0CB600040AF5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					C47BE131263B1F0100E6A8A5 = {
+					C49B2B9D263C0CB600040AF5 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = C47BE12D263B1F0100E6A8A5 /* Build configuration list for PBXProject "Network" */;
+			buildConfigurationList = C49B2B99263C0CB600040AF5 /* Build configuration list for PBXProject "Project Nasa" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,55 +121,59 @@
 				en,
 				Base,
 			);
-			mainGroup = C47BE129263B1F0100E6A8A5;
-			productRefGroup = C47BE133263B1F0100E6A8A5 /* Products */;
+			mainGroup = C49B2B95263C0CB600040AF5;
+			productRefGroup = C49B2B9F263C0CB600040AF5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C47BE131263B1F0100E6A8A5 /* Network */,
+				C49B2B9D263C0CB600040AF5 /* Project Nasa */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C47BE130263B1F0100E6A8A5 /* Resources */ = {
+		C49B2B9C263C0CB600040AF5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C47BE142263B1F0200E6A8A5 /* LaunchScreen.storyboard in Resources */,
-				C47BE13F263B1F0200E6A8A5 /* Assets.xcassets in Resources */,
-				C47BE13D263B1F0200E6A8A5 /* Main.storyboard in Resources */,
+				C49B2BAE263C0CB800040AF5 /* LaunchScreen.storyboard in Resources */,
+				C49B2BAB263C0CB800040AF5 /* Assets.xcassets in Resources */,
+				C49B2BA9263C0CB600040AF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C47BE12E263B1F0100E6A8A5 /* Sources */ = {
+		C49B2B9A263C0CB600040AF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C47BE13A263B1F0100E6A8A5 /* ViewController.swift in Sources */,
-				C47BE136263B1F0100E6A8A5 /* AppDelegate.swift in Sources */,
-				C47BE138263B1F0100E6A8A5 /* SceneDelegate.swift in Sources */,
+				C49B2BA6263C0CB600040AF5 /* MainViewController.swift in Sources */,
+				C49B2BBB263C106800040AF5 /* DataManager.swift in Sources */,
+				C49B2BA2263C0CB600040AF5 /* AppDelegate.swift in Sources */,
+				C4957653263C6F84005CF92E /* NetworkManager.swift in Sources */,
+				C49B2BB8263C103500040AF5 /* APODViewController.swift in Sources */,
+				C49B2BA4263C0CB600040AF5 /* SceneDelegate.swift in Sources */,
+				C4957650263C6D30005CF92E /* AstronomicPictureOfTheDay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C47BE13B263B1F0200E6A8A5 /* Main.storyboard */ = {
+		C49B2BA7263C0CB600040AF5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C47BE13C263B1F0200E6A8A5 /* Base */,
+				C49B2BA8263C0CB600040AF5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C47BE140263B1F0200E6A8A5 /* LaunchScreen.storyboard */ = {
+		C49B2BAC263C0CB800040AF5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C47BE141263B1F0200E6A8A5 /* Base */,
+				C49B2BAD263C0CB800040AF5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -165,7 +181,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C47BE144263B1F0200E6A8A5 /* Debug */ = {
+		C49B2BB0263C0CB800040AF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +242,7 @@
 			};
 			name = Debug;
 		};
-		C47BE145263B1F0200E6A8A5 /* Release */ = {
+		C49B2BB1263C0CB800040AF5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,38 +297,38 @@
 			};
 			name = Release;
 		};
-		C47BE147263B1F0200E6A8A5 /* Debug */ = {
+		C49B2BB3263C0CB800040AF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MF2X2E877U;
-				INFOPLIST_FILE = Network/Info.plist;
+				INFOPLIST_FILE = "Project Nasa/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yura-chekaluk-mail.ru.Network";
+				PRODUCT_BUNDLE_IDENTIFIER = "yura-chekaluk-mail.ru.Project-Nasa";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C47BE148263B1F0200E6A8A5 /* Release */ = {
+		C49B2BB4263C0CB800040AF5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MF2X2E877U;
-				INFOPLIST_FILE = Network/Info.plist;
+				INFOPLIST_FILE = "Project Nasa/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yura-chekaluk-mail.ru.Network";
+				PRODUCT_BUNDLE_IDENTIFIER = "yura-chekaluk-mail.ru.Project-Nasa";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,25 +338,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C47BE12D263B1F0100E6A8A5 /* Build configuration list for PBXProject "Network" */ = {
+		C49B2B99263C0CB600040AF5 /* Build configuration list for PBXProject "Project Nasa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C47BE144263B1F0200E6A8A5 /* Debug */,
-				C47BE145263B1F0200E6A8A5 /* Release */,
+				C49B2BB0263C0CB800040AF5 /* Debug */,
+				C49B2BB1263C0CB800040AF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C47BE146263B1F0200E6A8A5 /* Build configuration list for PBXNativeTarget "Network" */ = {
+		C49B2BB2263C0CB800040AF5 /* Build configuration list for PBXNativeTarget "Project Nasa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C47BE147263B1F0200E6A8A5 /* Debug */,
-				C47BE148263B1F0200E6A8A5 /* Release */,
+				C49B2BB3263C0CB800040AF5 /* Debug */,
+				C49B2BB4263C0CB800040AF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C47BE12A263B1F0100E6A8A5 /* Project object */;
+	rootObject = C49B2B96263C0CB600040AF5 /* Project object */;
 }
