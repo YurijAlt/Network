@@ -15,7 +15,6 @@ class MainViewController: UIViewController {
     
     
     //MARK: - Override Methods
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         apodButton.pulsate()
@@ -26,8 +25,10 @@ class MainViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let someRandomApodTVC = segue.destination as? SomeRandomAPODTableVC else { return }
         someRandomApodTVC.fetchApods()
-        let customURL = "https://api.nasa.gov/planetary/apod?count="+"\(textField.text ?? "")"+"&api_key=z0owduoN1oOCl08yr0r6xd1rTHCWRbFLz7TXkhFa"
-        DataManager.shared.url = customURL
+        if textField.text != "" {
+            let customURL = "https://api.nasa.gov/planetary/apod?count="+"\(textField.text ?? "")"+"&api_key=z0owduoN1oOCl08yr0r6xd1rTHCWRbFLz7TXkhFa"
+            DataManager.shared.url = customURL
+        }
     }
     
 }
