@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C4957650263C6D30005CF92E /* AstronomicPictureOfTheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495764F263C6D30005CF92E /* AstronomicPictureOfTheDay.swift */; };
-		C4957653263C6F84005CF92E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4957652263C6F84005CF92E /* NetworkManager.swift */; };
+		C4957650263C6D30005CF92E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495764F263C6D30005CF92E /* Models.swift */; };
 		C49B2BA2263C0CB600040AF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B2BA1263C0CB600040AF5 /* AppDelegate.swift */; };
 		C49B2BA4263C0CB600040AF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B2BA3263C0CB600040AF5 /* SceneDelegate.swift */; };
 		C49B2BA6263C0CB600040AF5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B2BA5263C0CB600040AF5 /* MainViewController.swift */; };
 		C49B2BA9263C0CB600040AF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49B2BA7263C0CB600040AF5 /* Main.storyboard */; };
 		C49B2BAB263C0CB800040AF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49B2BAA263C0CB800040AF5 /* Assets.xcassets */; };
 		C49B2BAE263C0CB800040AF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49B2BAC263C0CB800040AF5 /* LaunchScreen.storyboard */; };
-		C49B2BB8263C103500040AF5 /* APODViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B2BB7263C103500040AF5 /* APODViewController.swift */; };
 		C49B2BBB263C106800040AF5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B2BBA263C106800040AF5 /* DataManager.swift */; };
+		C4E7843B263F1D9800EF0F80 /* SomeRandomAPODTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E7843A263F1D9800EF0F80 /* SomeRandomAPODTableVC.swift */; };
+		C4E7843E263F1DF000EF0F80 /* SomeRandomAPODCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E7843D263F1DF000EF0F80 /* SomeRandomAPODCell.swift */; };
+		C4E78442263F4CE300EF0F80 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E78441263F4CE300EF0F80 /* AboutViewController.swift */; };
+		C4E7844C263F6E6600EF0F80 /* Extension + UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E7844B263F6E6600EF0F80 /* Extension + UIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C495764F263C6D30005CF92E /* AstronomicPictureOfTheDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomicPictureOfTheDay.swift; sourceTree = "<group>"; };
-		C4957652263C6F84005CF92E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C495764F263C6D30005CF92E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		C49B2B9E263C0CB600040AF5 /* Project Nasa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Nasa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49B2BA1263C0CB600040AF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C49B2BA3263C0CB600040AF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,8 +31,11 @@
 		C49B2BAA263C0CB800040AF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C49B2BAD263C0CB800040AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C49B2BAF263C0CB800040AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C49B2BB7263C103500040AF5 /* APODViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODViewController.swift; sourceTree = "<group>"; };
 		C49B2BBA263C106800040AF5 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		C4E7843A263F1D9800EF0F80 /* SomeRandomAPODTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeRandomAPODTableVC.swift; sourceTree = "<group>"; };
+		C4E7843D263F1DF000EF0F80 /* SomeRandomAPODCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeRandomAPODCell.swift; sourceTree = "<group>"; };
+		C4E78441263F4CE300EF0F80 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		C4E7844B263F6E6600EF0F80 /* Extension + UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIButton.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +71,13 @@
 				C49B2BA1263C0CB600040AF5 /* AppDelegate.swift */,
 				C49B2BA3263C0CB600040AF5 /* SceneDelegate.swift */,
 				C49B2BA5263C0CB600040AF5 /* MainViewController.swift */,
-				C49B2BB7263C103500040AF5 /* APODViewController.swift */,
+				C4E78441263F4CE300EF0F80 /* AboutViewController.swift */,
+				C4E7843A263F1D9800EF0F80 /* SomeRandomAPODTableVC.swift */,
+				C4E7843D263F1DF000EF0F80 /* SomeRandomAPODCell.swift */,
 				C49B2BBA263C106800040AF5 /* DataManager.swift */,
-				C4957652263C6F84005CF92E /* NetworkManager.swift */,
-				C495764F263C6D30005CF92E /* AstronomicPictureOfTheDay.swift */,
+				C495764F263C6D30005CF92E /* Models.swift */,
 				C49B2BA7263C0CB600040AF5 /* Main.storyboard */,
+				C4E7844B263F6E6600EF0F80 /* Extension + UIButton.swift */,
 				C49B2BAA263C0CB800040AF5 /* Assets.xcassets */,
 				C49B2BAC263C0CB800040AF5 /* LaunchScreen.storyboard */,
 				C49B2BAF263C0CB800040AF5 /* Info.plist */,
@@ -150,12 +156,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C49B2BA6263C0CB600040AF5 /* MainViewController.swift in Sources */,
+				C4E7844C263F6E6600EF0F80 /* Extension + UIButton.swift in Sources */,
 				C49B2BBB263C106800040AF5 /* DataManager.swift in Sources */,
 				C49B2BA2263C0CB600040AF5 /* AppDelegate.swift in Sources */,
-				C4957653263C6F84005CF92E /* NetworkManager.swift in Sources */,
-				C49B2BB8263C103500040AF5 /* APODViewController.swift in Sources */,
+				C4E7843B263F1D9800EF0F80 /* SomeRandomAPODTableVC.swift in Sources */,
+				C4E7843E263F1DF000EF0F80 /* SomeRandomAPODCell.swift in Sources */,
 				C49B2BA4263C0CB600040AF5 /* SceneDelegate.swift in Sources */,
-				C4957650263C6D30005CF92E /* AstronomicPictureOfTheDay.swift in Sources */,
+				C4E78442263F4CE300EF0F80 /* AboutViewController.swift in Sources */,
+				C4957650263C6D30005CF92E /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

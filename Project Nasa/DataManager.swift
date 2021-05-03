@@ -7,13 +7,11 @@
 
 struct DataManager {
     
-   static let shared = DataManager()
+    static var shared = DataManager()
     
-    enum URLExamples: String {
-        case apodImage = "https://api.nasa.gov/planetary/apod?api_key=z0owduoN1oOCl08yr0r6xd1rTHCWRbFLz7TXkhFa"
-        case epicImage = "https://api.nasa.gov/EPIC/api/natural/images?api_key=z0owduoN1oOCl08yr0r6xd1rTHCWRbFLz7TXkhFa"
-    }
+    var url = "https://api.nasa.gov/planetary/apod?count=10&api_key=z0owduoN1oOCl08yr0r6xd1rTHCWRbFLz7TXkhFa"
+    let descriptionText = "Один из самых популярных веб-сайтов NASA - Astronomy Picture of the Day. Фактически, этот сайт - один из самых популярных во всех федеральных агентствах. Он популярнее видео Джастина Бибера. Этот сайт структурирует изображения APOD и связанные с ними метаданные. Откройте для себя космос! Каждый день появляется новое изображение или фотография нашей увлекательной вселенной, а также краткое объяснение, написанное профессиональным астрономом."
+    let nasaLogo = "nasaLogo"
     
-   private init() {}
-    
+    private init() {}
 }

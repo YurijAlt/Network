@@ -6,6 +6,8 @@
 //
 
 struct APOD: Decodable {
-    let url: String?
+    let date: String?
+    let explanation: String?
     let title: String?
+    let url: String?
 }
