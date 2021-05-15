@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8P0-qp-1My">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Project_Nasa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="RxN-hU-qKH">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZR-Ue-Yhu">
+                                <rect key="frame" x="24" y="250.5" width="272" height="67"/>
+                                <color key="backgroundColor" red="0.1067128852" green="0.23481923339999999" blue="0.54865169530000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="NS2-Sf-1oU"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="272" id="ZXr-ZL-m8J"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="View APOD!">
+                                    <color key="titleColor" red="1" green="0.99998790029999995" blue="0.9999920726" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="BFb-c0-4tn" kind="show" identifier="someRandomAPODs" id="SsT-Um-Iv4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RxN-hU-qKH" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="5mj-SN-b39"/>
+                            <constraint firstItem="JZR-Ue-Yhu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MXY-TQ-51S"/>
+                            <constraint firstItem="RxN-hU-qKH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Pvr-yB-J1C"/>
+                            <constraint firstItem="RxN-hU-qKH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="WPv-7n-CgK"/>
+                            <constraint firstItem="RxN-hU-qKH" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="vZS-IG-3YI"/>
+                            <constraint firstItem="JZR-Ue-Yhu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xQG-wO-eru"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="6Wa-Ey-wLT">
+                        <barButtonItem key="rightBarButtonItem" title="info" image="info.circle.fill" catalog="system" id="OGx-w3-hbV">
+                            <connections>
+                                <segue destination="3Tg-Lv-aIS" kind="presentation" id="wHa-GI-O6E"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="apodButton" destination="JZR-Ue-Yhu" id="a0C-0r-HXk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="781.875" y="92.957746478873247"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="dRx-BO-4Oc">
+            <objects>
+                <viewController id="3Tg-Lv-aIS" customClass="AboutViewController" customModule="Project_Nasa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JB6-aR-vUi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X7d-C3-kw6">
+                                <rect key="frame" x="16" y="20" width="288" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nasaLogo" translatesAutoresizingMaskIntoConstraints="NO" id="zjs-11-lJY">
+                                <rect key="frame" x="70" y="96.5" width="180" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="ABA-ad-ibW"/>
+                                    <constraint firstAttribute="height" constant="180" id="wzQ-fh-2an"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bai-Rt-vxv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zjs-11-lJY" firstAttribute="top" secondItem="X7d-C3-kw6" secondAttribute="bottom" constant="50" id="8ZR-Qd-PP3"/>
+                            <constraint firstItem="zjs-11-lJY" firstAttribute="centerX" secondItem="JB6-aR-vUi" secondAttribute="centerX" id="LAd-SH-K7z"/>
+                            <constraint firstItem="X7d-C3-kw6" firstAttribute="top" secondItem="Bai-Rt-vxv" secondAttribute="top" constant="20" id="S4t-Z6-BMe"/>
+                            <constraint firstItem="Bai-Rt-vxv" firstAttribute="trailing" secondItem="X7d-C3-kw6" secondAttribute="trailing" constant="16" id="ekP-mm-v5B"/>
+                            <constraint firstItem="X7d-C3-kw6" firstAttribute="leading" secondItem="Bai-Rt-vxv" secondAttribute="leading" constant="16" id="mgp-rb-ntn"/>
+                            <constraint firstItem="zjs-11-lJY" firstAttribute="centerX" secondItem="JB6-aR-vUi" secondAttribute="centerX" id="mrD-IR-F60"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="X7d-C3-kw6" id="Ulf-aC-NiE"/>
+                        <outlet property="nasaLogo" destination="zjs-11-lJY" id="4Uf-2g-APF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J8r-Tq-8Jc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1695" y="92.957746478873247"/>
+        </scene>
+        <!--Some RandomAPOD TableVC-->
+        <scene sceneID="nOH-cG-I6N">
+            <objects>
+                <tableViewController id="BFb-c0-4tn" customClass="SomeRandomAPODTableVC" customModule="Project_Nasa" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="cr6-ps-QlK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="separatorColor" red="0.39439478519999999" green="0.49400395149999998" blue="0.70949572319999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="388" id="SeQ-7w-qv6" customClass="SomeRandomAPODCell" customModule="Project_Nasa" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="55.5" width="320" height="388"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SeQ-7w-qv6" id="hke-MA-WzS">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="388"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SKb-N4-1Ke" customClass="APODImageView" customModule="Project_Nasa" customModuleProvider="target">
+                                            <rect key="frame" x="16" y="66.5" width="288" height="279"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="279" id="1TG-kU-N7Q"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <integer key="value" value="10"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Название APOD" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9k-JR-yxe">
+                                            <rect key="frame" x="16" y="11" width="288" height="21.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="288" id="CSs-N2-XA1"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                            <color key="textColor" red="0.39439478519999999" green="0.49400395149999998" blue="0.70949572319999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дата создания" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XCa-Zj-m2b">
+                                            <rect key="frame" x="106" y="40.5" width="108.5" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                            <color key="textColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Описание" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igQ-WB-UD8">
+                                            <rect key="frame" x="16" y="355.5" width="288" height="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.45485073329999998" green="0.45852011440000001" blue="0.47839361429999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uKM-2S-mGa">
+                                            <rect key="frame" x="274" y="28" width="30" height="30"/>
+                                            <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                            <state key="normal" title="🗄"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <integer key="value" value="5"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="XCa-Zj-m2b" firstAttribute="top" secondItem="w9k-JR-yxe" secondAttribute="bottom" constant="8" symbolic="YES" id="31w-QA-ONk"/>
+                                        <constraint firstItem="w9k-JR-yxe" firstAttribute="centerX" secondItem="hke-MA-WzS" secondAttribute="centerX" id="JQp-pd-3OM"/>
+                                        <constraint firstItem="SKb-N4-1Ke" firstAttribute="centerX" secondItem="hke-MA-WzS" secondAttribute="centerX" id="Vmf-nz-8hr"/>
+                                        <constraint firstAttribute="bottom" secondItem="igQ-WB-UD8" secondAttribute="bottom" constant="15.5" id="Vqu-z8-vpI"/>
+                                        <constraint firstItem="w9k-JR-yxe" firstAttribute="top" secondItem="hke-MA-WzS" secondAttribute="top" constant="11" id="WWo-O9-ERe"/>
+                                        <constraint firstItem="SKb-N4-1Ke" firstAttribute="leading" secondItem="igQ-WB-UD8" secondAttribute="leading" id="XzV-EU-zdW"/>
+                                        <constraint firstItem="uKM-2S-mGa" firstAttribute="top" secondItem="hke-MA-WzS" secondAttribute="top" constant="28" id="YTJ-cD-6BX"/>
+                                        <constraint firstItem="XCa-Zj-m2b" firstAttribute="centerX" secondItem="w9k-JR-yxe" secondAttribute="centerX" id="ZMB-B9-fEm"/>
+                                        <constraint firstItem="igQ-WB-UD8" firstAttribute="trailing" secondItem="hke-MA-WzS" secondAttribute="trailingMargin" id="bW8-4H-pPi"/>
+                                        <constraint firstItem="igQ-WB-UD8" firstAttribute="leading" secondItem="hke-MA-WzS" secondAttribute="leadingMargin" id="h0c-ip-WuU"/>
+                                        <constraint firstItem="SKb-N4-1Ke" firstAttribute="top" secondItem="XCa-Zj-m2b" secondAttribute="bottom" constant="8" symbolic="YES" id="j19-eV-j22"/>
+                                        <constraint firstAttribute="trailing" secondItem="uKM-2S-mGa" secondAttribute="trailing" constant="16" id="rzd-EC-8xt"/>
+                                        <constraint firstItem="igQ-WB-UD8" firstAttribute="top" secondItem="SKb-N4-1Ke" secondAttribute="bottom" constant="10" id="yFh-Tb-yaF"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.086276002229999996" green="0.086152531209999994" blue="0.094103075559999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <outlet property="apodImage" destination="SKb-N4-1Ke" id="pgT-ce-I8c"/>
+                                    <outlet property="dateLabel" destination="XCa-Zj-m2b" id="yVt-hv-rbs"/>
+                                    <outlet property="explanationLabel" destination="igQ-WB-UD8" id="eZG-ep-pnJ"/>
+                                    <outlet property="titleLabel" destination="w9k-JR-yxe" id="9mb-y4-JRQ"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="BFb-c0-4tn" id="QDc-fn-uBI"/>
+                            <outlet property="delegate" destination="BFb-c0-4tn" id="ndE-YS-HqZ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="mPr-5k-lKa"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NNc-1e-tEk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="781.875" y="850.35211267605632"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gLC-nb-myw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8P0-qp-1My" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dJk-qK-caD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.1067128852" green="0.23481923339999999" blue="0.54865169530000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Igg-91-5HM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KKg-M3-Wyl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-215.625" y="92.957746478873247"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="1125" height="2436"/>
+        <image name="info.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="nasaLogo" width="1024" height="851"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
